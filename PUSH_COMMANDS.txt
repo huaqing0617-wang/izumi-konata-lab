@@ -1,0 +1,20 @@
+# Izumi Konata Lab — first push
+# Repository: https://github.com/huaqing0617-wang/izumi-konata-lab.git
+
+cd ~/Desktop/izumi-konata-lab
+
+git init
+git branch -M main
+
+git add .
+git status
+
+git commit -m "feat: publish Izumi Konata Lab public source showcase"
+
+git remote add origin https://github.com/huaqing0617-wang/izumi-konata-lab.git
+git remote -v
+
+git push -u origin main
+
+git tag -a v2.0.3 -m "Izumi Konata Lab v2.0.3 public source snapshot"
+git push origin v2.0.3

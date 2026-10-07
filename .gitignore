@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+credentials*
+secrets*
+token*
+password*
+
+# SSH
+.ssh/
+id_rsa
+id_ed25519
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Private production components
+private/
+server-config/
+nginx-reference/
+guestbook-backend/
+guestbook/
+
+# Private visual assets
+**/avatar.*
+**/favicon.*
+**/windchime.*
+**/dedication.*
+**/sakana/
+private-assets/
+
+# Temporary / generated
+*.tmp
+*.bak
+*.log
